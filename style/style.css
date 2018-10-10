@@ -1,0 +1,38 @@
+body{
+position: relative;
+background-image: url("Layer.png")  ;
+background-position: top;
+color: #ffffff;}
+
+nav{
+  width: 960px;
+  margin: 0 auto;
+}
+
+
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+
+ul li a{
+  background-color: black;
+  
+  
+   
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+  
+
+
+
+
+
