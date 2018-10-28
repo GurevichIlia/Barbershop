@@ -1,38 +1,109 @@
+*{
+  padding: 0;
+  margin: 0;
+}
 body{
-position: relative;
-background-image: url("Layer.png")  ;
-background-position: top;
-color: #ffffff;}
-
-nav{
+font-family: 'PT Sans Narrow', Arial, sans-serif;
+background-image: url("Layer.png");
+background-repeat: no-repeat;
+background-position: top center;
+background-color: #1e1e1e;
+text-transform: uppercase;
+font-size: 14px;
+line-height: 24px;
+}
+h2{
+  font-size: 30px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+header{
+  background-color: black;
+  margin-bottom: 60px;
+}
+.header{
   width: 960px;
   margin: 0 auto;
-}
-
-
+  font-size: 16px;
 }
 ul{
-  margin: 0;
-  padding: 0;
-  list-style: none;
+  padding-top: 28px;
+  padding-bottom: 28px;  
+}
+li{
+  padding-left: 10px;
+}
+img.login{
+  margin-right: 5px;
+  margin-left: 40px;
 }
 
-
-
-ul li a{
-  background-color: black;
-  
-  
-   
-  height: 50px;
+img.logo{
+  margin-bottom: 80px;
+}
+.adventage{
+  color: white;
+  margin-bottom: 85px;
+}
+.adventage img{
+margin-bottom: 30px;
+}
+.adventage h2{
+margin-bottom: 15px;
+}
+div.box{
   text-align: center;
-  text-decoration: none;
 }
 
+.news_gallery{
+  color: black;
+  background-image: url("Layer1.png");
+  width: 960px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+  padding: 55px 80px 50px 80px;
 
-  
+}
+.image{
+  width: 300px; 
+  margin-bottom: 52px;
+}
+div.text{
+  text-transform: lowercase;
+}
 
+.contacts_opentime{
+  color: black;
+  background-image: url("Layer1.png");
+  width: 960px;
+  margin: 0 auto;
+  padding: 55px 80px 50px 80px;
+  margin-bottom: 65px;
+}
+.news_gallery h2 , .contacts_opentime h2{
+margin-bottom: 40px;
+}
 
+footer{
+  background-color: #212121;
+}
 
-
-
+div.footer{
+    text-align: center;  
+    color: white;
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+div.contact{
+  text-align: left;
+  padding-bottom: 30px;
+}
+.social{
+  padding-right:  195px;
+}
+a.find_us{
+text-decoration-line: underline;
+}
