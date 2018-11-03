@@ -19,6 +19,12 @@ a{
   text-decoration: none;
   color: white;
 }
+a:hover{
+  color:grey;
+}
+.btn{
+  background-color: black;
+}
 header{
   background-color: black;
   margin-bottom: 60px;
